@@ -1,3 +1,3 @@
-console.log("Start");
-console.log("Starting Project");
 //Project success
+var a=5,b=6;
+console.log(a+b);
