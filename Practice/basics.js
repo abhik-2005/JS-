@@ -38,3 +38,19 @@
 //date
 // let md=new Date()
 // console.log(md)
+// console.log(md.toString());
+// console.log(md.toDateString());
+// console.log(md.toISOString());
+// console.log(md.toJSON());
+// console.log(md.toLocaleDateString());
+// console.log(md.toLocaleString());
+
+//Time-stamp
+// let ts= Date.now()
+// console.log(ts);
+// let newdate= new Date(2026, 0,26)
+// console.log(newdate.getTime());
+// md.toLocaleString('default', {
+//     weekday : "long"
+// })
+// console.log(md.toLocaleString());
