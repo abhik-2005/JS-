@@ -21,4 +21,23 @@ const arr = new Array("Hello", 23, 2.5, true)
 // console.log(arr);
 // console.log(narr);
 
+//{
+/* Combinig 2 arrays using concat
+const narr = new Array("Hello", 23, 2.5, true)
+const comb = arr.concat(narr)
+console.log(comb);
+*/
+
+/* Combining using spread - Breaking 2 glass(array) and combinig into single array  
+const narr = new Array("Hello", 23, 2.5, true)
+const comb = [...arr,...narr]
+console.log(comb);
+*/
+//}
+// Spreading is easy so commonly used 
+
+//using flat 
+// const naar = [1,2,3,[4,5,[6,7,[8,9]]]] //combining main array with its sub array down
+// const comb = naar.flat(Infinity) // infinty is a parameter in which how much lvl of concating 
+// console.log(comb);
 
